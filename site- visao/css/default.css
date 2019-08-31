@@ -1,0 +1,289 @@
+
+body {
+
+    background: #ff;
+ 
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+ 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+    font-family:cursive;
+}
+
+
+
+
+
+
+
+
+a:link{
+    
+   color: lightcyan;
+    text-decoration: none;
+    
+    
+}
+a:visited{
+    color: lightcyan;
+    text-decoration: none;
+}
+a:active{
+    color: inherit;
+    text-decoration: none;
+}
+
+.Botton {
+   text-align: center;
+    clear: both;
+    height: 10%;
+    
+    background-color: dimgrey;
+    font-size: 20px;
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+   }
+
+
+
+
+
+
+
+
+
+
+.body {
+  background-image: url(../imgs/background-image6.jpg);
+  margin: 10px 0 0 0;
+  padding-top: 80px;
+  color: black;
+    
+          
+}
+
+
+
+.header {
+   
+    text-align: center;
+    height: 10%;
+    font-size: 70px;
+    position:absolute;
+    top:0px;
+    width:100%;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    
+   
+}
+
+head {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+//atributo p mudar cor fundo quando passa o mouse
+.header :hover{
+   background-color: darkgreen;
+}
+.right-div-side {
+    background-color: #694932;
+    position: fixed;
+    float: right;
+    width: 0px;
+    top:25px;
+    bottom: 30px;
+    border-style: solid 1px;
+    right: 0%;
+    
+    
+   
+    
+}
+
+.left-bar-div {
+    
+    position: fixed;
+    float: left;
+    bottom: 35%;
+  //  background-color: #0b2926;
+   
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100px;
+}
+
+.facebook-logo {
+   border-radius: 25px;
+}
+
+.twitter-logo {
+    border-radius: 25px;
+}
+
+.linkedin-logo {
+    border-radius: 25px;
+}
+
+
+
+
+
+.login-pass {
+    position: fixed;
+    top:9%;
+    align-items: center;
+    
+}
+
+#login-button {
+   margin: 0 0 0 120px; 
+    width: 100px;
+    height: 20px;
+
+}
+
+#login {
+    margin: 0 0 0 85px;
+    width: 170px;
+    height: 20px;
+  
+}
+
+#password {
+    margin: 0 0 0 85px;
+    width: 170px;
+    height: 20px;
+    
+}
+
+.right-div-side {
+    
+}
+
+.menu-bars {
+    position: fixed;
+    right: 0%;
+    width: 50px;
+    height: 50px;
+    top: 9%;
+    
+}
+
+.menu-bars-inside {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 9%;
+    right: 350px;
+
+    
+}
+
+#googleMap {
+    
+    
+    width: 100%;
+    height: 260px;
+    top: 370px;
+}
+
+#contact-div-overlay {
+  position: fixed;
+  display: none; 
+  width: 100%; 
+  height: 100%; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.7); 
+  z-index: 2; 
+  cursor: pointer; 
+}
+
+.contact-overlay {
+   color:darkseagreen;
+    padding: 0 0 0 150px;
+}
+
+.form-contact-overlay {
+    margin: 80px 350px 100px 350px;
+    font-size: 40px;
+    font-family: fantasy;
+    text-align: center;
+    background-color: lightslategray;
+    border-style:double;
+    border-radius: 10px;
+    
+}
+
+.contact-name-input {
+    width: 250px;
+    height: 40px;
+}
+
+.contact-email-input {
+     width: 250px;
+    height: 40px;
+}
+
+.contact-subject-input {
+     width: 250px;
+    height: 40px;
+}
+
+.contact-message-input {
+     width: 250px;
+    height: 40px;
+}
+
+.contact-input-button {
+     width: 150px;
+    height: 40px;
+}
+
+.contact-close {
+    position: relative;;
+    left: 365px;
+    bottom: 9px;
+
+}
+
+
+
+#certified-test-overlay {
+  position: fixed;
+  display: none; 
+  width: 100%; 
+  height: 100%; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.7); 
+  z-index: 2; 
+  cursor: pointer; 
+}
+
+.image-certified-1 {
+padding: 50px 0 0 260px;
+}

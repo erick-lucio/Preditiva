@@ -1,0 +1,37 @@
+
+.about {
+    text-align: center;
+    color: aliceblue;
+}
+
+h3 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 35px;
+}
+
+
+
+
+textarea {
+    font-size: 10px;;
+    resize: none;
+    
+}
+
+
+.code-div {
+    padding: 0 25% 0 20%;
+  
+}
+
+.design-text {
+    background-image: url(imgs/background-image7.jpg);
+    padding: 0 50px 0 50px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+div {
+    margin: 0 0 40px 0;
+}

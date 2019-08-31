@@ -1,0 +1,88 @@
+
+.about {
+    text-align: center;
+    color: aliceblue;
+}
+
+h3 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 35px;
+}
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 35px;
+}
+
+
+
+
+textarea {
+    font-size: 10px;;
+    resize: none;
+    
+}
+
+
+.code-div {
+    padding: 0 25% 0 20%;
+  
+}
+
+.design-text {
+    background-image: url(imgs/background-image7.jpg);
+    padding: 0 50px 0 50px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+div {
+    margin: 0 0 40px 0;
+}
+
+
+
+
+
+
+
+.footer_test {
+    margin: 0 ;
+    font-size: 50px;
+}
+
+.div_sensor_box {
+    background-image: linear-gradient(to bottom, lightblue , lightblue,blue);
+    margin: 20% auto 10% auto;
+    height: 30%;
+    width: 80%;
+    padding-top: 10%;
+    text-align: center;
+    border-style:solid;
+    border-color: blue;
+    border-radius: 30px;
+}
+
+.header_p {
+    font-size: 100px;
+    margin-top: -10px;
+    color:red;
+}
+
+.temp_title {
+    font-size: 150px;
+}
+
+#temperature_int {
+    font-size:200px;
+    margin-top: -70px;
+}
+
+#temp_title {
+    font-size: 80px;
+}
+
+#motor1 {
+    font-size: 80px;
+}
